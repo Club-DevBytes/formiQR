@@ -1,6 +1,6 @@
 
 
-<div style="text-align:center"><img src ="https://lh3.googleusercontent.com/ep2NABYBe15KDKJl7hIVxKbKtHD6vxzRiyChQKJA--r6pLKEMVzGpTUefic9YQ0YqlgcEhvvffQ2kmTUdbGbrFWksnqSU_oa_z1lAFaSS33Dr09Uk0Xavr2KBSKV3jTtph8gCozj7bRI0XHQxWKZerwMfjFrZliqN_P-w3ywESrxb1KGs7uXu5h10kl7oVoHPuBZe44LB7BelO4H9touza-Lf9Y_Vjh_tvYbhpJUcBGS9wzdTN4kReVgKHxzfYsk6wWH01UuXyL3zXog6soIjB8rdYVq6SIk8oXDVcUhRO_096suQQioio4IBA1Ux_DN6iAK2clGZjZvmfAD6J9weY42VctDjKwoqajbaMkNwTBrDcIhUfmsKqVhd5BQ99xcTTYTEU_FU70QYTZqYd2709WumkPzw3TWv5egkGoEeRkE7w0YXEwTMi63tFYPEIqV9A7MNIBpxhila3WuQzrRG-tcCVywDJoTw_SlsGsqCIDJAfmkpKLaTBIit8mCkVjTMqvYxcJSCu4R5WPJko-sgPMupzdrnlq7BG3cPZGQlUrD-lZZSwcfqGxlg0vpDuFAf8-b63RM2DUrUJq21CUbyYGx4mH8oCqSxoh-mJUgT7eV3xvzmd76VMn20m_uq0Dv6LVBTfnVFvQOYjFWpMIYu7fyl-C8WSM=w780-h585-no" /></div>
+<div style="text-align:center"><img src ="https://github.com/Club-DevBytes/formiQR/blob/master/G-Form/formiQR.png" /></div>
 
 # formiQR 
 ## Leverages google form with help of firebase cloud function to be a complete event management platform
