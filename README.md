@@ -6,7 +6,7 @@
 ## Leverages google form with help of firebase cloud function to be a complete event management platform
 
 # The problem formiQR solves
-### If you have been to any hackathon or similar event, there the initial time is wasted in registration desk, where we need to say our name and then they go around searching it up. But with formiQR it happens in an instant with a QR scan, plus it works alongside google form, what can be more awesome than that 😄
+ If you have been to any hackathon or similar event, there the initial time is wasted in registration desk, where we need to say our name and then they go around searching it up. But with formiQR it happens in an instant with a QR scan, plus it works alongside google form, what can be more awesome than that 😄
 
 # What is formiQR ?
 
