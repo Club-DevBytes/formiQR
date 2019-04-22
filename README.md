@@ -5,7 +5,8 @@
 # formiQR 
 ## Leverages google form with help of firebase cloud function to be a complete event management platform
 
-
+# The problem formiQR solves
+### If you have been to any hackathon or similar event, there the initial time is wasted in registration desk, where we need to say our name and then they go around searching it up. But with formiQR it happens in an instant with a QR scan, plus it works alongside google form, what can be more awesome than that 😄
 
 # What is formiQR ?
 
@@ -20,7 +21,7 @@
 
 >The firebase cloud function, provides an instant personalized email to the user on successful submission of the google form. This email is dynamically generated with cloud function and contains a QR which is generated with Google Charts api.
 
->This sort of functionality provides a professionalism to the event and gives a good feedback to the end user.
+>This sort of functionality provides a professionalism to the event and gives a good feedback to the end user 😇
 
 > During the event day, when the Organizing team scan the QR-code, they get a real time data of the attendees and can distribute the resource or preform actions based on it.
 > After the session the Organizers can get a csv data of the attendees present in the event.
