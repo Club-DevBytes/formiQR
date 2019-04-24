@@ -16,12 +16,10 @@ function writeDataToFirebase() {
     var dataToImport = {};
     for (var i = 1; i < data.length; i++) {
         dataToImport[i] = {
-            stamp: data[i][0],
             name: data[i][1],
             email: data[i][2],
-            address: data[i][3],
-            phone: data[i][4],
-            comment: data[i][5]
+            gender: data[i][3],
+            age: data[i][4]
         };
     }
     base.setData("maker", dataToImport);

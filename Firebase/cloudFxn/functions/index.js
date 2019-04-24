@@ -89,7 +89,7 @@ function sendEmail(makers, makerID) {
   });
 }
 
-//To deploy firebase deploy --only functions:makerFxn
+//To deploy firebase deploy --only functions:mailFxn
 
 
 
@@ -115,31 +115,15 @@ exports.genderCountFxn = functions.database
       })
 
   });
-//To deploy firebase deploy --only functions:visitorFxn
+//To deploy firebase deploy --only functions:genderCountFxn
 
 
 
 exports.overallCountFxn = functions.database
   .ref("/atEvent/{date}/{id}")
   .onCreate((snapshot, context) => {
-    // Grab the current value of what was written to the Realtime Database.
     const Visitor = snapshot.val();
-    console.log("Inside Visitor Fxn");
-    console.log(Visitor);
 
-    console.log(Visitor.name);
-
-    //---------------------------------------------------
-    //Working gender counter
-    // const genderCountersRef = admin
-    // .database()
-    // .ref(`count/${Visitor.gender}`);
-
-    // return genderCountersRef
-    // .transaction(counter_value => {
-    //   return (counter_value || 0) + 1;
-    // })
-    //-----------------------------------------------
     const overallCountersRef = admin
       .database()
       .ref(`count/overAllTotal`);
@@ -148,6 +132,5 @@ exports.overallCountFxn = functions.database
       .transaction(counter_value => {
         return (counter_value || 0) + 1;
       })
-
-
   });
+//To deploy firebase deploy --only functions:overallCountFxn
