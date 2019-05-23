@@ -36,3 +36,5 @@
 * Refactor the android app to a general template, the current app contains UI and fields for MakerFest Vadodara.
 * Add option to add attendees without QR to the at Event node.
 
+## Explanation Blog At
+https://medium.com/club-devbytes/how-to-build-formiqr-leverage-google-form-with-help-of-firebase-cloud-function-to-be-a-complete-55801110b578
